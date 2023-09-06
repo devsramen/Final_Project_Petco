@@ -1,0 +1,88 @@
+:root{
+    /* ========== Color ===========*/
+    --primaryColor1: #676666;
+    --color1: #f4f1ea;
+    --color2: #0a303a;
+    --color3: #1e4b57;
+    --color4: #f04336;
+    --color5: #fff;
+    --color6: #312620;
+    --color7: #e8e8e8;
+    --color8: #8e8e8e;
+    --color9: #edece6;
+    --color10: #d5d5d5;
+    --color11: #f8f8f8;
+    --color12: #212529;
+    --color13: #f7f6f4ab;
+    --color14: #525252;
+    --color15: #e73a2d;
+    --color16: #747474;
+    --color17: #d5e6eb;
+    --color18: #181a21;
+    --color19: #f4f1ea61;
+    --color20: #f39c10;
+    --color21: #ebebeb;
+    --color22: #282828;
+    --color23: #f5f2eb;
+    --color24: #222222;
+    --color25: #485566;
+    --color26: #8dd244;
+    --color27: #50b1f9;
+    --color28: #e1e1e1;
+    --color29: #ced4da;
+    --color30: #143556;
+    --color31: #838181;
+    --color32: #f4f2eb;
+    --color33: #385594;
+    --color34: #1696e7;
+    --color35: #1976d2;
+
+
+
+    /* ========== Font Size ===========*/
+    --fontSize1: 12px;
+    --fontSize2: 13px;
+    --fontSize3: 14px;
+    --fontSize4: 16px;
+    --fontSize5: 15px;
+    --fontSize6: 18px;
+    --fontSize7: 24px;
+    --fontSize8: 20px;
+    --fontSize9: 70px;
+    --fontSize10: 42px;
+    --fontSize11: 65px;
+    --fontSize12: 40px;
+    --fontSize13: 22px;
+    --fontSize14: 30px;
+    --fontSize15: 40px;
+    --fontSize16: 36px;
+    --fontSize17: 34px;
+    --fontSize18: 26px;
+
+
+    /* ========== Font Weight ===========*/
+    --fontWeight1: 100;
+    --fontWeight2: 200;
+    --fontWeight3: 300;
+    --fontWeight4: 400;
+    --fontWeight5: 500;
+    --fontWeight6: 600;
+    --fontWeight7: 700;
+    --fontWeight8: 800;
+    --fontWeight9: 900;
+    --fontWeight10: 1000;
+
+    
+    /* ========== Line Height ===========*/
+    --lineHeight1: 1.00;
+    --lineHeight2: 1.35;
+    --lineHeight3: 1.86;
+    --lineHeight4: 1.5;
+    --lineHeight5: 1.67;
+    --lineHeight6: 1.20;
+    --lineHeight7: 1.75;
+    --lineHeight8: 2;
+    --lineHeight9: 1.20;
+
+
+}

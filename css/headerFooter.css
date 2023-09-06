@@ -1,0 +1,676 @@
+html, body{
+    scroll-behavior: unset !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 0.80;
+    font-family: 'Poppins', sans-serif;
+}
+/* Demo Link Css Stat */
+.demoLink{
+    font-size: 30px;
+    font-weight: 700;
+    color: blueviolet;
+    background-color: aquamarine;
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: inline-table;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    opacity: 0.2;
+    transition: all linear 0.3s;
+}
+.demoLink:hover{
+    opacity: 1;
+}
+/* Demo Link Css End */
+
+
+/* Common CSS Start */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fontSize4);
+    font-weight: var(--fontWeight4);
+    color: var(--primaryColor1);
+    font-style: normal;
+}
+.custom_container{
+    max-width: 1835px;
+    margin: 0 auto;
+}
+.header_custom_container{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+span{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: var(--primaryColor1);
+}
+a:hover{
+    color: unset;
+}
+ol, ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+/* --------------------- Common Button Start ----------------- */
+.commonButton .commonBtnText {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    background: #f04336 none repeat scroll 0 0;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    line-height: 1;
+    padding: 20px 50px 20px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}   
+.commonButton .commonBtnText::before {
+content: "";
+position: absolute;
+-webkit-transition-duration: 800ms;
+transition-duration: 800ms;
+width: 200%;
+height: 200%;
+top: 110%;
+left: 50%;
+background: #0a303a;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+border-radius: 50%;
+z-index: -1;
+}
+.commonBtnImg {
+    max-width: 22px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+.commonButton .commonBtnText:hover:before {
+top: -40%;
+}
+.commonButton .commonBtnText:hover {
+color: #fff;
+}
+/* --------------------- Common Button Ended----------------- */
+/* Common CSS Ended */
+
+
+/* ============ Index.Html File CSS Start ================*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 999999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+#preloader img {
+    width: 12%;
+    min-width: 120px;
+}
+.headerTop{
+    max-width: 100%;
+    background-color: var(--color1);
+    padding: 15px 0;
+    border-radius: 25px;
+}
+.headerTop_SubTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.headTopOpen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.headTopOpenTime{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.headTopOpenText{
+    font-size: var(--fontSize2);
+    color: var(--color2);
+    text-transform: capitalize;
+}
+.headerIcon1{
+    margin-right: 5px;
+}
+.headerFollow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    transition: all linear 0.3s;
+}
+#header .commonButton .commonBtnText {
+    font-size: 15px;
+}
+.headerFollowText{
+    font-size: var(--fontSize3);
+    color: var(--color2);
+    text-transform: capitalize;
+}
+.headerIcon2{
+    font-size: var(--fontSize3);
+    color: var(--color2);
+    transition: all linear 0.3s;
+}
+.headerIcon2:hover{
+    color: var(--color4);
+}
+.headerBottom {
+    background-color: var(--color5);
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+#header .bg-light {
+    background-color: transparent !important;
+}
+.headerBottom::after {
+    content: "";
+    width: 100%;
+    height: 58px;
+    background-image: url(../images/header_shape.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+.navItemText{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1;
+    color: #1e4b57;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    transition: all linear 0.3s;
+}
+
+#header .navbar-brand {
+    margin-right: 6rem;
+}
+.navItemText::before {
+    content: "";
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    box-shadow: 0px 5px 12.09px 0.91px rgba(71, 51, 127, 0.11);
+    margin: 0 auto;
+    background: #f04336;
+    border-radius: 10px 10px 20px 20px;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.3s ease-out 0s;
+}
+.NavItemMain{
+    padding: 13px 0;
+    position: relative;
+}
+.NavItemMain:hover .navItemText{
+    color: var(--color5);
+}
+.NavItemMain:hover .navItemText::before{
+    opacity: 1;
+}
+.navItemSubManu{
+    width: 230px;
+    padding: 18px 10px 18px 25px;
+    box-shadow: 0px 30px 70px 0px rgba(137,139,142,0.15);
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 155%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.3s;
+}
+.NavItemMain:hover .navItemSubManu{
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.navItemSubManuTextWrapper{
+    font-family: 'Nunito', sans-serif;
+    font-weight: var(--fontWeight7);
+    color: var(--color3);
+    text-transform: capitalize;
+}
+.navItemSubManuText{
+    font-family: 'Nunito', sans-serif;
+    font-weight: var(--fontWeight7);
+    line-height: var(--lineHeight8);
+    color: var(--color3);
+    text-transform: capitalize;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.navItemSubManuText::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--color4);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: all linear 0.3s;
+}
+.navItemSubManuText:hover{
+    color: var(--color4);
+}
+.navItemSubManuText:hover{
+    padding-left: 20px;
+}
+.navItemSubManuText:hover::before{
+    width: 15px;
+}
+.headerBottomShopWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.headerBottomShopWrapper::before {
+    content: "";
+    width: 2px;
+    height: 67%;
+    background-color: var(--color10);
+    position: absolute;
+    left: -17px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.searchIcon{
+    position: relative;
+}
+.headerShoppingCard{
+    width: 350px;
+    background-color: var(--color5);
+    padding: 25px;
+    box-shadow: 0px 12px 24px 0px rgba(120, 120, 120, 0.3);
+    position: absolute;
+    top: 53px;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.searchIcon:hover{
+    cursor: pointer;
+}
+.searchIcon:hover .headerShoppingCard{
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.headerShoppingCardItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 20px;   
+}
+.headerShoppingCardImageWrapper{
+    width: 100px;
+    height: 87px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.headerShoppingCardImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.headerShoppingCardTitle{
+    font-size: var(--fontSize5);
+    font-weight: var(--fontWeight6);
+    line-height: var(--lineHeight2);
+    color: var(--color6);
+    text-transform: capitalize;
+    padding: 0 25px 0 15px;
+    margin-bottom: 12px;
+    transition: all linear 0.3s;
+}
+.headerShoppingCardTitle:hover{
+    color: var(--color4);
+}
+.headerIcon3{
+    transition: all linear 0.3s;
+}
+.headerIcon3:hover{
+    color: var(--color4);
+}
+.headerNew{
+    font-size: var(--fontSize3);
+    font-weight: var(--fontWeight5);
+    text-transform: capitalize;
+    padding: 0 25px 0 15px;
+    margin-bottom: 12px;
+    opacity: 1;
+}
+.headerDell{
+    opacity: .7;
+}
+.totalPrice{
+    font-weight: var(--fontWeight5);
+    color: var(--color8);
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--color7);
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.headerShoppingCardBtn1{
+    font-size: var(--fontSize2);
+    font-weight: var(--fontWeight5);
+    letter-spacing: 1px;
+    color: var(--color5);
+    background: var(--color4);
+    text-transform: uppercase;
+    padding: 16px 30px;
+    margin-bottom: 8px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+.headerShoppingCardBtn1:hover{
+    color: var(--color5);
+    cursor: pointer;
+}
+.headerShoppingCardBtn2{
+    font-size: var(--fontSize2);
+    font-weight: var(--fontWeight5);
+    letter-spacing: 1px;
+    color: var(--color5);
+    background: var(--color2);
+    text-transform: uppercase;
+    padding: 16px 30px;
+    margin-bottom: 8px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+.headerShoppingCardBtn2:hover{
+    color: var(--color5);
+    cursor: pointer;
+}
+.headerIcon4{
+    font-size: 20px;
+}
+.fixedNav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+
+
+
+
+
+/* =========== Footer Start=========== */
+#footer{
+    margin-top: 10px;
+} 
+/* ------- Scroll Button Design Start ------ */
+.scrollBtn{
+    font-size: var(--fontSize4);
+    color: var(--color5);
+    text-align: center;
+    border-radius: 5px;
+    padding: 18px;
+    cursor: pointer;
+    background-color: var(--color4);
+    display: inline-block;
+    position: fixed;
+    bottom: 110%;
+    right: 50px;
+    z-index: 999;
+    transition: all linear 0.6s;
+}
+.scrollBtn:hover {
+    background: #0a303a;
+}
+.scrollBtn::after{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 1;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);    
+}
+/* ------- Scroll Button Design End ------ */
+.footerTop{
+    background-image: url(../images/footer_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 105px 0 55px;
+}
+.footerTop::before{
+    content: "";
+    width: 100%;
+    height: 24px;
+    background-image: url(../images/footerTop_shape01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#footer .logoWrapper{
+    margin-bottom: 25px;
+}
+.footerTopPara{
+    font-size: var(--fontSize3);
+    font-weight: var(--fontWeight4);
+    line-height: var(--lineHeight3);
+}
+.footerIcons{
+    margin: 30px 0 32px;
+}
+.footerIcon1{
+    font-size: var(--fontSize7);
+    font-weight: var(--fontWeight9);
+    color: var(--color5);
+    background-color: var(--color4);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+.footerCallNumb{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize7);
+    font-weight: var(--fontWeight9);
+    color: var(--color2);
+    font-style: normal;
+    transition: all linear 0.3s;
+}
+.footerCallNumb:hover{
+    color: inherit;
+}
+.footerCallTextBelow{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize1);
+    font-weight: var(--fontWeight9);
+    color: var(--color4);
+    text-transform: uppercase;
+}
+.footerIcon2{
+    font-size: var(--fontSize4);
+    color: var(--color2);
+    transition: all linear 0.3s;
+}
+.footerIcon2:hover{
+    color: var(--color4);
+}
+.footerPolici{
+    margin-bottom: 50px;
+}
+.footerPolityTitle{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.footerPolityTitleText{
+    font-family: 'Nunito', sans-serif;
+    font-size: var(--fontSize8);
+    font-weight: var(--fontWeight8);
+    color: var(--color2);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.footerPolityItem{
+    font-size: var(--fontSize3);
+    font-weight: var(--fontWeight4);
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.footerPolityItem:hover{
+    color: var(--color4);
+    margin-left: 7px;
+}
+.footerPolicImageWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 25px;
+}
+.footerImageWrapper{
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.footerInsImage{
+    width: 100%;
+}
+.footerTop::after{
+    content: "";
+    width: 100%;
+    height: 25px;
+    background-image: url(../images/footerBottomShape.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.footerTopIconeWrapper{
+    position: absolute;
+    left: 35px;
+    bottom: -23px;
+}
+.footerTopIconeWrapper2{
+    position: absolute;
+    right: 66px;
+    bottom: 12px;
+}
+.footerLower{
+    padding: 15px 0;
+    background-color: var(--color2);
+}
+.footrLowerText{
+    font-size: var(--fontSize3);
+    font-weight: var(--fontWeight4);
+    line-height: var(--lineHeight3);
+    color: var(--color10);
+}
+.language{
+    text-align: right;
+}
+a#dropdownMenuLink {
+    color: var(--color11);
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: initial;
+}
+.languageImage{
+    max-width: 18px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 6px;
+    border: 1px solid var(--color5);
+}
+.footer-lang img {
+    border-radius: 50%;
+}
+.footerFlagWrapperL{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid var(--color5);
+}
+.footerFlag{
+    width: 100%;
+}
+.footerLangNam{
+    font-size: var(--fontSize4);
+    color: var(--color12);
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 4px 0;
+}
+/* =========== Footer End =========== */
+/* Index.Html File CSS Ended */

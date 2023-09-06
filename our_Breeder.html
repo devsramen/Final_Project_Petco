@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petco - Pet Breeder & Adoption HTML Template</title>
+
+  <!-- Bootstrap CDN Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Slik Slider Link -->
+  <link rel="stylesheet" href="plugins/SlikSlider/slick.css">
+
+  <!-- Fonts Row CSS File Link -->
+  <link rel="stylesheet" href="css/fonts.css">
+
+  <!-- Header & Footer CSS File Link -->
+  <link rel="stylesheet" href="css/headerFooter.css">
+
+  <!-- Variable Row CSS File Link -->
+  <link rel="stylesheet" href="css/veriable.css">
+
+  <!-- Animation Row CSS File Link -->
+  <link rel="stylesheet" href="css/animation.css">
+
+  <!-- VenoBox Link -->
+  <link rel="stylesheet" href="plugins/VenoBox-master/venobox.min.css">
+
+  <!-- WoW Link -->
+  <link rel="stylesheet" href="plugins/wow/animate.css">
+
+  <!-- CSS Row File Link -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Responsive Row File Link -->
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+  <a href="https://themebeyond.com/pre/petco-prev/petco-live/index.html" class="demoLink" target="_blank">Demo Link</a>
+
+  <!-- ====================== Header Section Staret =========================== -->
+  <header id="header">
+    <div class="headerBottom">
+      <div class="header_custom_container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="Image Not Found" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item NavItemMain">
+                  <a class="navItemText" href="index.html">home</a>
+                </li>
+                <li class="nav-item NavItemMain">
+                  <a class="navItemText" href="dogList.html">dog list</a>
+                </li>
+                <li class="nav-item NavItemMain">
+                  <a class="navItemText" href="#">shop</a>
+                  <ul class="navItemSubManu">
+                    <li class="navItemSubManuTextWrapper">
+                      <a href="ourShop.html" class="navItemSubManuText">our shop</a>
+                    </li>
+                    <li class="navItemSubManuTextWrapper">
+                      <a href="shopDetails.html" class="navItemSubManuText">shop details</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item NavItemMain">
+                  <a class="navItemText" href="adoption.html">Adoption</a>
+                </li>
+                <li class="nav-item NavItemMain">
+                  <a class="navItemText" href="#">Breeder</a>
+                  <ul class="navItemSubManu">
+                    <li class="navItemSubManuTextWrapper">
+                      <a href="our_Breeder.html" class="navItemSubManuText">Our Breeder</a>
+                    </li>
+                    <li class="navItemSubManuTextWrapper">
+                      <a href="breeder_Details.html" class="navItemSubManuText">Breeder Details</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item NavItemMain">
+                  <a class="navItemText" href="#">Blog</a>
+                  <ul class="navItemSubManu">
+                    <li class="navItemSubManuTextWrapper">
+                      <a href="ourBlog.html" class="navItemSubManuText">Our Blog</a>
+                    </li>
+                    <li class="navItemSubManuTextWrapper">
+                      <a href="blogDetails.html" class="navItemSubManuText">Blog Details</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item NavItemMain">
+                  <a class="navItemText" href="contact.html">contact</a>
+                </li>
+              </ul>
+              <div class="headerBottomShopWrapper">
+                <div class="searchIcon">
+                  <i class="fa-solid fa-magnifying-glass headerIcon4"></i>
+                </div>
+                <div class="searchIcon">
+                  <i class="fa-solid fa-cart-shopping headerIcon4"></i>
+                  <div class="headerShoppingCard">
+                    <div class="headerShoppingCardItem">
+                      <a href="#">
+                        <div class="headerShoppingCardImageWrapper">
+                          <img src="images/shoppingcartImage_01.jpg" alt="Image Not Founded"
+                            class="headerShoppingCardImage">
+                        </div>
+                      </a>
+                      <div class="headerShoppingCardInfo">
+                        <a href="#">
+                          <h3 class="headerShoppingCardTitle">The King Charles Spaniel</h3>
+                        </a>
+                        <span class="headerNew">$329.9 <sapn class="headerDell"><del>$300.9</del></sapn></span>
+                      </div>
+                      <i class="fa-solid fa-trash-can headerIcon3"></i>
+                    </div>
+                    <div class="headerShoppingCardItem">
+                      <a href="#">
+                        <div class="headerShoppingCardImageWrapper">
+                          <img src="images/shoppingcartImage_02.jpg" alt="Image Not Founded"
+                            class="headerShoppingCardImage">
+                        </div>
+                      </a>
+                      <div class="headerShoppingCardInfo">
+                        <a href="#">
+                          <h3 class="headerShoppingCardTitle">The Labrador Retriever</h3>
+                        </a>
+                        <span class="headerNew">$229.9 <sapn class="headerDell"><del>$259.9</del></sapn></span>
+                      </div>
+                      <i class="fa-solid fa-trash-can headerIcon3"></i>
+                    </div>
+                    <div class="totalPrice">
+                      <span class="haderTotal">total :</span>
+                      <span class="haderPrice">$559.8</span>
+                    </div>
+                    <a href="#" class="headerShoppingCardBtn1">Shopping Cart</a>
+                    <a href="#" class="headerShoppingCardBtn2">Shopping Cart</a>
+                  </div>
+                </div>
+                <div class="commonButton">
+                  <a href="#" class="commonBtnText">Adopt Here
+                    <img src="images/navShappingAdoptImg.png" alt="Image Not Found" class="commonBtnImg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- ====================== Header Section End =========================== -->
+
+  <!-- ====================== Banner Section Start =========================== -->
+  <section id="dLBanner">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 wow slideInDown" data-wow-duration="2s" data-wow-delay="0s">
+          <h1 class="dlBTitle">Our Breeder</h1>
+          <div class="dlBannerSubtitleWrapper">
+            <a href="index.html" class="dlBannerSubTitleHome">home</a>
+            <span class="dlBannerSubTitleDL">Breeder</sapn>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====================== Banner Section End =========================== -->
+
+  <!-- ====================== Meet Adoption Section Start =========================== -->
+  <section id="meetAdoption">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="0s">
+          <div class="adopShopTitleWrapper">
+            <h3 class="commonSubTitle">Meet Breeder</h3>
+            <h2 class="commonTitle">Work For <span>Breeder</span> Happy Time</h2>
+            <p class="commonPara">
+              The best overall dog DNA test is Embark Breed & Health Kit view at Chewy which pres domesti dog is a
+              sticated descendant.
+            </p>
+          </div>
+          <ul class="maBuletPoint">
+            <li class="maBuletPointText">
+              <i class="fa-solid fa-check maIcon1"></i>
+              <span>Embark Breed & Health</span>
+            </li>
+            <li class="maBuletPointText">
+              <i class="fa-solid fa-check maIcon1"></i>
+              <span>The domestic dog is a domesticated</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-8 wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="1.2s">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="maImageWrapper">
+                <div class="maImageItem">
+                  <div class="maImageSubItem">
+                    <a href="#"><img src="images/adoption_Slider_Image_01.jpg" alt="Image Not Found"
+                        class="maImage"></a>
+                  </div>
+                </div>
+                <div class="maImageItem">
+                  <div class="maImageSubItem">
+                    <a href="#"><img src="images/adoption_Slider_Image_02.jpg" alt="Image Not Found"
+                        class="maImage"></a>
+                  </div>
+                </div>
+                <div class="maImageItem">
+                  <div class="maImageSubItem">
+                    <a href="#"><img src="images/adoption_Slider_Image_03.jpg" alt="Image Not Found"
+                        class="maImage"></a>
+                  </div>
+                </div>
+                <div class="maImageItem">
+                  <div class="maImageSubItem">
+                    <a href="#"><img src="images/adoption_Slider_Image_04.jpg" alt="Image Not Found"
+                        class="maImage"></a>
+                  </div>
+                </div>
+                <div class="maImageItem">
+                  <div class="maImageSubItem">
+                    <a href="#"><img src="images/adoption_Slider_Image_05.jpg" alt="Image Not Found"
+                        class="maImage"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="serviceRightWrapper">
+                <span class="serviceRightSubTitle">Dog Breeder</span>
+                <h3 class="serviceRightTitle">Available for Breed</h3>
+                <p class="serviceRightPara">
+                  The best overall dog DNA test is Embark Breed &amp; Health Kit (view at Chewy), which provid dogs
+                </p>
+                <div class="commonButton">
+                  <a href="#" class="commonBtnText adapBtnTextColor">more pets
+                    <img src="images/navShappingAdoptImg.png" alt="Image Not Found" class="commonBtnImg">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="counterSection">
+        <div class="container">
+          <div class="row wow bounceInUp" data-wow-duration="2s" data-wow-delay="0s">
+            <div class="col-12 col-lg-3">
+              <div class="counterWrapper">
+                <span class="counter commonTitle">73</span><span class="commonTitle">%</span>
+                <p class="commonSubTitle">DOGS ARE FIRST BRED</p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="counterWrapper">
+                <span class="counter commonTitle">259</span><span class="commonTitle">+</span>
+                <p class="commonSubTitle">DOGS ARE FIRST BRED</p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="counterWrapper">
+                <span class="counter commonTitle">39</span><span class="commonTitle">k</span>
+                <p class="commonSubTitle">DOGS ARE FIRST BRED</p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3">
+              <div class="counterWrapper">
+                <span class="counter commonTitle">45</span><span class="commonTitle">+</span>
+                <p class="commonSubTitle">DOGS ARE FIRST BRED</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <!-- ====================== Meet Adoption Section End =========================== -->
+
+  <!-- ====================== Medt The Animals Section Start =========================== -->
+  <section id="MeetTheAnimals">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 wow bounceInDown" data-wow-duration="2s" data-wow-delay="0s">
+          <div class="commonfootPrintWrapper mb-5">
+            <img src="images/commonFootPrint.png" alt="Image Not Found" class="commonfootPrintImg">
+          </div>
+          <div class="adopShopTitleWrapper text-center">
+            <h3 class="commonSubTitle">Meet the animals</h3>
+            <h2 class="commonTitle">Puppies Waiting for Adoption</h2>
+            <p class="commonPara">
+              The best overall dog DNA test is Embark Breed &amp; Health Kit (view at Chewy), which provides you with a
+              breed brwn and information Most dogs
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-0 wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0s">
+      <div class="header_custom_container">
+        <div class="col-12">
+          <div class="mtaSliderWrapper">
+            <div class="mtaSliderItemWrapper">
+              <div class="mtaSliderItem">
+                <div class="mtaSliderItemImgWrapper">
+                  <img src="images/pwaImage01.png" alt="Image not Found" class="mtaSliderImag">
+                  <span class="mtaStatus">Free</span>
+                </div>
+                <div class="mtaSliderContent">
+                  <span class="mtaSliderSubTitle"><i class="fa-regular fa-calendar-days mtaIcon"></i> Birth :
+                    2021</span>
+                  <div class="mtaSliderTitle">Siberian Husky</div>
+                  <p class="mtaSliderPara">
+                    The Siberian Husky is a medium-sized working sled dog breed.
+                  </p>
+                  <div class="commonButton">
+                    <a href="#" class="commonBtnText">read more
+                      <img src="images/navShappingAdoptImg.png" alt="Image Not Found" class="commonBtnImg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mtaSliderItemWrapper">
+              <div class="mtaSliderItem">
+                <div class="mtaSliderItemImgWrapper">
+                  <img src="images/pwaImage02.png" alt="Image not Found" class="mtaSliderImag">
+                  <span class="mtaStatus">Free</span>
+                </div>
+                <div class="mtaSliderContent">
+                  <span class="mtaSliderSubTitle"><i class="fa-regular fa-calendar-days mtaIcon"></i> Birth :
+                    2021</span>
+                  <div class="mtaSliderTitle">German Sharped</div>
+                  <p class="mtaSliderPara">
+                    The German Shepherd is a breed of medium to large-sized.
+                  </p>
+                  <div class="commonButton">
+                    <a href="#" class="commonBtnText">read more
+                      <img src="images/navShappingAdoptImg.png" alt="Image Not Found" class="commonBtnImg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mtaSliderItemWrapper">
+              <div class="mtaSliderItem">
+                <div class="mtaSliderItemImgWrapper">
+                  <img src="images/pwaImage03.png" alt="Image not Found" class="mtaSliderImag">
+                  <span class="mtaStatus">Free</span>
+                </div>
+                <div class="mtaSliderContent">
+                  <span class="mtaSliderSubTitle"><i class="fa-regular fa-calendar-days mtaIcon"></i> Birth :
+                    2021</span>
+                  <div class="mtaSliderTitle">Golden Retriever</div>
+                  <p class="mtaSliderPara">
+                    The Golden Retriever is a medium-large gun dog that was bred.
+                  </p>
+                  <div class="commonButton">
+                    <a href="#" class="commonBtnText">read more
+                      <img src="images/navShappingAdoptImg.png" alt="Image Not Found" class="commonBtnImg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mtaSliderItemWrapper">
+              <div class="mtaSliderItem">
+                <div class="mtaSliderItemImgWrapper">
+                  <img src="images/pwaImage04.png" alt="Image not Found" class="mtaSliderImag">
+                  <span class="mtaStatus">Free</span>
+                </div>
+                <div class="mtaSliderContent">
+                  <span class="mtaSliderSubTitle"><i class="fa-regular fa-calendar-days mtaIcon"></i> Birth :
+                    2021</span>
+                  <div class="mtaSliderTitle">French Bulldog</div>
+                  <p class="mtaSliderPara">
+                    French Bulldog is a breed of domestic dog, bred to be companion.
+                  </p>
+                  <div class="commonButton">
+                    <a href="#" class="commonBtnText">read more
+                      <img src="images/navShappingAdoptImg.png" alt="Image Not Found" class="commonBtnImg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mtaSliderItemWrapper">
+              <div class="mtaSliderItem">
+                <div class="mtaSliderItemImgWrapper">
+                  <img src="images/pwaImage05.png" alt="Image not Found" class="mtaSliderImag">
+                  <span class="mtaStatus">Free</span>
+                </div>
+                <div class="mtaSliderContent">
+                  <span class="mtaSliderSubTitle"><i class="fa-regular fa-calendar-days mtaIcon"></i> Birth :
+                    2021</span>
+                  <div class="mtaSliderTitle">Siberian Husky</div>
+                  <p class="mtaSliderPara">
+                    French Bulldog is a breed of domestic dog, bred to be companion.
+                  </p>
+                  <div class="commonButton">
+                    <a href="#" class="commonBtnText">read more
+                      <img src="images/navShappingAdoptImg.png" alt="Image Not Found" class="commonBtnImg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mtaLeftArrows">
+        <div class="bd_mtaservicePrevArrow">
+          <img src="images/arrow.png" alt="Image Not Found" class="mtaserviceArrowImage">
+        </div>
+      </div>
+      <div class="mtaRightArrows">
+        <div class="mtaRighArrows">
+          <div class="bd_mtaservicePrevArrow">
+            <img src="images/arrow.png" alt="Image Not Found" class="mtaserviceArrowImage">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====================== Medt The Animals Section End =========================== -->
+
+  <!-- ====================== History & Family Adoption Section Start =========================== -->
+  <section id="historyFamily" class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="0s">
+    <div class="row g-0">
+      <div class="col-12 col-lg-6">
+        <div class="hfImageWrapper">
+          <img src="images/historyFamily_img.jpg" alt="Image Not Found" class="hfImage">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="faqTextWrapper">
+          <h3 class="commonSubTitle">FAQ Question</h3>
+          <h2 class="commonTitle">History &amp; Family Adoption</h2>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Working for dog adoption
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="commonPara">The best overall dog DNA test is embark breed &amp; health Kit (view atths
+                    Chewy), which provides you with a breed brwn and ition on provides ancestors most dogs.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Competitions &amp; Awards
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="commonPara">The best overall dog DNA test is embark breed &amp; health Kit (view atths
+                    Chewy), which provides you with a breed brwn and ition on provides ancestors most dogs.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  The puppies are 3 months old
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p class="commonPara">The best overall dog DNA test is embark breed &amp; health Kit (view atths
+                    Chewy), which provides you with a breed brwn and ition on provides ancestors most dogs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mtFaqShapWrapper">
+      <img src="images/faq_shape.png" alt="" class="mtFaqShapeImg">
+    </div>
+  </section>
+  <!-- ====================== History & Family Adoption Section End =========================== -->
+
+  <!-- ====================== Meet Adoption with Slider Section Start =========================== -->
+  <section id="mtWithSlider">
+    <div class="container">
+      <div class="row wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0s">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 order-0 order-lg-2">
+              <div class="mtWithSliderGalleryWrapper">
+                <div class="mtWithSliderGalleryitem">
+                  <div class="mtWithSliderGalleryImageWrapper">
+                    <img src="images/mtWithSlider_gallery01.jpg" alt="Image Not Found" class="mtWithSliderGalleryImage">
+                  </div>
+                </div>
+                <div class="mtWithSliderGalleryitem">
+                  <div class="mtWithSliderGalleryImageWrapper">
+                    <img src="images/mtWithSlider_gallery02.jpg" alt="Image Not Found" class="mtWithSliderGalleryImage">
+                  </div>
+                </div>
+                <div class="mtWithSliderGalleryitem">
+                  <div class="mtWithSliderGalleryImageWrapper">
+                    <img src="images/mtWithSlider_gallery03.jpg" alt="Image Not Found" class="mtWithSliderGalleryImage">
+                  </div>
+                </div>
+                <div class="mtWithSliderGalleryitem">
+                  <div class="mtWithSliderGalleryImageWrapper">
+                    <img src="images/mtWithSlider_gallery04.jpg" alt="Image Not Found" class="mtWithSliderGalleryImage">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="adopShopTitleWrapper">
+                <h3 class="commonSubTitle">Meet Adoption</h3>
+                <h2 class="commonTitle">Working For <span>Adoption</span> Happy Time</h2>
+                <p class="commonPara">
+                  The best overall dog DNA test is Embark Breed & Health Kit view at Chewy which provides domestic dog
+                  is a sticated descendant of the wolf. The dog derived from an ancient.
+                </p>
+              </div>
+              <ul class="maBuletPoint">
+                <li class="maBuletPointText">
+                  <i class="fa-solid fa-check maIcon1"></i>
+                  <span>Embark Breed & Health</span>
+                </li>
+                <li class="maBuletPointText">
+                  <i class="fa-solid fa-check maIcon1"></i>
+                  <span>The domestic dog is a domesticated</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====================== Meet Adoption with Slider Section End =========================== -->
+
+  <!-- ====================== Footer Section Start =========================== -->
+  <footer id="footer">
+    <div class="scrollBtn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <div class="footerTop">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3">
+            <div class="footerTop1">
+              <div class="logoWrapper">
+                <img src="images/logo.png" alt="" class="logo img-fluid">
+              </div>
+              <p class="footerTopPara">
+                The best overall dog DNA test Embark Breed & Health Kit (view at Chewy) which provides overall dog you.
+              </p>
+              <div class="footerIcons d-flex align-items-center gap-2">
+                <i class="fas fa-headphones footerIcon1"></i>
+                <div class="footerCallText d-flex flex-column gap-2">
+                  <a href="tel:0987654321" class="footerCallNumb">747-800-9880</a>
+                  <span class="footerCallTextBelow">Call Now</span>
+                </div>
+              </div>
+              <ul class="headerTopTextMain d-flex justify-content-start align-items-center gap-3">
+                <li class="headerTopTextR"><a href="#"><i class="fa-brands fa-facebook-f footerIcon2"></i></a></li>
+                <li class="headerTopTextR"><a href="#"><i class="fa-brands fa-twitter footerIcon2"></i></a></li>
+                <li class="headerTopTextR"><a href="#"><i class="fa-brands fa-instagram footerIcon2"></i></a></li>
+                <li class="headerTopTextR"><a href="#"><i class="fa-brands fa-linkedin-in footerIcon2"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 offset-lg-1">
+            <div class="footerPolici">
+              <ul class="footerPolityTitle">
+                <h3 class="footerPolityTitleText">Our Policy</h3>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Privacy
+                    Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Terms and
+                    Conditions</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Editorial
+                    Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Return
+                    Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">IP
+                    Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Grievance
+                    Redressal Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Terms and
+                    Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2  offset-lg-1">
+            <div class="footerPolici">
+              <ul class="footerPolityTitle">
+                <h3 class="footerPolityTitleText">Our service</h3>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Our
+                    Breeder</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Our
+                    Adoption</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Editorial
+                    Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Return
+                    Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Grievance
+                    Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Redressal
+                    Policy</a></li>
+                <li><a href="https://themewagon.github.io/Season/" class="footerPolityItem" target="_blank">Contact
+                    Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="footerPolici">
+              <h3 class="footerPolityTitleText">Instagram</h3>
+              <div class="footerPolicImageWrapper">
+                <div class="footerImageWrapper">
+                  <a href="#" class="" target="_blank">
+                    <img src="images/insta_img01.png" alt="" class="footerInsImage img-fluid">
+                  </a>
+                </div>
+                <div class="footerImageWrapper">
+                  <a href="#" class="" target="_blank">
+                    <img src="images/insta_img02.png" alt="" class="footerInsImage img-fluid">
+                  </a>
+                </div>
+                <div class="footerImageWrapper">
+                  <a href="#" class="" target="_blank">
+                    <img src="images/insta_img03.png" alt="" class="footerInsImage img-fluid">
+                  </a>
+                </div>
+                <div class="footerImageWrapper">
+                  <a href="#" class="" target="_blank">
+                    <img src="images/insta_img04.png" alt="" class="footerInsImage img-fluid">
+                  </a>
+                </div>
+                <div class="footerImageWrapper">
+                  <a href="#" class="" target="_blank">
+                    <img src="images/insta_img05.png" alt="" class="footerInsImage img-fluid">
+                  </a>
+                </div>
+                <div class="footerImageWrapper">
+                  <a href="#" class="" target="_blank">
+                    <img src="images/insta_img06.png" alt="" class="footerInsImage img-fluid">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerTopIconeWrapper">
+        <img src="images/footerTopIcon1.png" alt="Image Not Found" class="footerTopIcon1">
+      </div>
+      <div class="footerTopIconeWrapper2">
+        <img src="images/footerTopIcon2.png" alt="Image Not Found" class="footerTopIcon1">
+      </div>
+    </div>
+    <div class="footerLower">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <span class="footrLowerText">Copyright © 2021 Petco. All Rights Reserved.</span>
+          </div>
+          <div class="col-lg-4">
+            <div class="language">
+              <div class="dropdown">
+                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src="images/united-states.png" alt="Image Not Found" class="languageImage">English
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <div class="langFlagWrapper d-flex justify-content-start align-items-center gap-2">
+                        <div class="footerFlagWrapperL">
+                          <img src="images/russia.png" alt="Image Not Found" class="footerFlag">
+                        </div>
+                        <span class="footerLangNam">russian</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <div class="langFlagWrapper d-flex justify-content-start align-items-center gap-2">
+                        <div class="footerFlagWrapperL">
+                          <img src="images/thailand.png" alt="Image Not Found" class="footerFlag">
+                        </div>
+                        <span class="footerLangNam">Thai</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <div class="langFlagWrapper d-flex justify-content-start align-items-center gap-2">
+                        <div class="footerFlagWrapperL">
+                          <img src="images/india.png" alt="Image Not Found" class="footerFlag">
+                        </div>
+                        <span class="footerLangNam">Hindi</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ====================== Footer Section End =========================== -->
+
+
+  <!-- Bootstrap JS Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+  <!-- =========== Fontawesom CDN Link ========== -->
+  <script src="https://kit.fontawesome.com/5e82e4ce8d.js" crossorigin="anonymous"></script>
+
+  <!-- jQuery CDN Link -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+  <!-- jQuery File Link -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+
+  <!-- Slik Slider Link -->
+  <script src="plugins/SlikSlider/slick.min.js"></script>
+
+  <!-- VenoBox Link -->
+  <script src="plugins/VenoBox-master/venobox.min.js"></script>
+ 
+  <!-- WoW Link -->
+  <script src="plugins/wow/wow.min.js"></script>
+
+  <!-- counter up Link -->
+  <script src="plugins/counterUp/waypoints.min.js"></script>
+  <script src="plugins/counterUp/jquery.counterup.min.js"></script>
+
+  <!-- JS Row File Link -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

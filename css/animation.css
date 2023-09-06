@@ -1,0 +1,61 @@
+/* 
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation
+*/
+.bannerAnimationImg1, .bannerAnimationImg2{    
+    animation-name: bannerAnimationImg1;
+    animation-duration: 1.5s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes bannerAnimationImg1 {
+    0%{
+        rotate: -30deg;
+    }
+    100%{
+        rotate: 10deg;
+    }
+}
+.commonfootPrintImg{    
+    animation-name: commonfootPrintImg;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes commonfootPrintImg {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 10deg;
+    }
+}
+#mtWithSlider li.slick-active button{    
+    animation-name: mtWithSlider;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes mtWithSlider {
+    0%{
+        background-color: var(--color4);
+    }
+    50%{
+        background-color: var(--color26);
+    }
+    100%{
+        background-color: var(--color20);
+    }
+}
